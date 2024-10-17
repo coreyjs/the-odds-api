@@ -1,3 +1,6 @@
+[![The-Odds-API](https://github.com/coreyjs/the-odds-api/actions/workflows/python-app.yml/badge.svg)](https://github.com/coreyjs/the-odds-api/actions/workflows/python-app.yml)
+
+
 # The Odds API (Unofficial) Client for the-odds-api.com
 
 You will need to acquire an API KEY from [The Odds API](https://the-odds-api.com/) to use this client.
