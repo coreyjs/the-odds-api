@@ -7,11 +7,15 @@ on:
       - completed
     branches:
       - main
+  push:
+    branches:
+      - main
 
 jobs:
   draft-release:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
