@@ -3,6 +3,8 @@
 
 # The Odds API (Unofficial) Client for the-odds-api.com
 
+(This is basically a rough draft.  Kinda quick and dirty for now)
+
 You will need to acquire an API KEY from [The Odds API](https://the-odds-api.com/) to use this client.
 
 ```python

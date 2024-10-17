@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "the-odds"
-version = "1.0.1"
+version = "1.0.2"
 description = "The-Odds-APi.com Client (unofficial)."
 authors = ["Corey Schaf <cschaf@gmail.com>"]
 readme = "README.md"
