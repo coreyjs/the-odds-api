@@ -1,13 +1,17 @@
 name: Draft Release on Merge
 
 on:
-  push:
+  workflow_run:
+    workflows: ["Pytest-Black-Ruff"]
+    types:
+      - completed
     branches:
       - main
 
 jobs:
   draft-release:
     runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
